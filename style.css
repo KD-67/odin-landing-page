@@ -73,3 +73,15 @@ button{
  border-radius: 7px;
  padding: 5px 30px;
 }
+
+#info_content{
+    display: flex;
+}
+
+figure{
+    flex: 1;
+}
+
+.pic{
+    
+}

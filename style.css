@@ -56,7 +56,7 @@ header{
 }
 
 #hero_button{
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     font-weight: bold;
     margin-right: 375px;
@@ -74,8 +74,17 @@ button{
  padding: 5px 30px;
 }
 
+#info_section{
+    margin: 50px;
+    text-align: center;
+}
+
 #info_content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px 200px;
 }
 
 figure{
@@ -83,5 +92,10 @@ figure{
 }
 
 .pic{
-    
+    width: 120px;
+    border-radius: 15px;
+}
+
+figcaption{
+    font-size: 12px;
 }

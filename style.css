@@ -99,3 +99,24 @@ figure{
 figcaption{
     font-size: 12px;
 }
+
+#quote_section{
+    background-color: #e5e7eb;
+    padding: 50px 350px;
+}
+
+.quote_text{
+    
+}
+
+#quote{
+    font-size: 24px;
+    color: #1f2937;
+    font-style: italic; 
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+#quotee{
+    text-align: right;
+}

@@ -59,19 +59,15 @@ header{
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    margin-right: 375px;
+    margin-right: 350px;
     border-radius: 7px;
     padding: 5px;
-}
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 5px 30px;
 
-button{
- color: white;
- background-color: blue;   
- border: none;
- font-size: 16px;
- font-weight: bold;
- border-radius: 7px;
- padding: 5px 30px;
 }
 
 #info_section{
@@ -119,10 +115,33 @@ figcaption{
 
 #call_to_action{
     margin: 50px 200px;
-    padding: 50px;
+    padding: 35px;
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
     color: white;
     border-radius: 10px;
+}
+
+#action_text2{
+    font-weight: 250;
+    padding-top: 5px;
+}
+
+#action_button{
+    border: 1px solid white; 
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 3px 20px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-weight: 200;
 }

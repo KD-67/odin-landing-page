@@ -105,10 +105,6 @@ figcaption{
     padding: 50px 350px;
 }
 
-.quote_text{
-    
-}
-
 #quote{
     font-size: 24px;
     color: #1f2937;
@@ -119,4 +115,14 @@ figcaption{
 
 #quotee{
     text-align: right;
+}
+
+#call_to_action{
+    margin: 50px 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
 }
